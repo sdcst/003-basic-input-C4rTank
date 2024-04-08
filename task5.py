@@ -13,3 +13,20 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+import math
+
+v = input("Pick a number for Volume :")
+
+v = float(v)
+
+pi = math.pi
+
+st1 = 3 * v
+st2 = 4 * pi
+st3 = st1 /st2
+
+answer = st3**1/3
+
+print("The radius of your sphere is", answer)
+

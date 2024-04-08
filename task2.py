@@ -11,3 +11,15 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+
+import math
+
+r = input("Enter the radius of a random sphere :")
+
+r = int(r) 
+pi = math.pi
+r3 = math.pow(r,3)
+
+answer = 4/3 * pi * r3
+
+print(answer)

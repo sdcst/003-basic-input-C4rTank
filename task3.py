@@ -12,3 +12,18 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = input("Pick a number for a :")
+b = input("Pick a number for b :")
+c = input("Pick a number for c :")
+
+a = int(a)
+b = int(b)
+c = int(c)
+
+s = c - b
+x = s/a
+
+
+
+print("x is",x)
